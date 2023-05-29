@@ -1,0 +1,197 @@
+ /* Modifiche Navbar  */
+.nav{
+  z-index:9998;
+}
+ .custom-logo{
+    height: 85px;
+    width: 150px;
+    margin-left: -15%;
+ }
+
+ .nav a{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+ }
+
+ .nav a:hover{
+    color: yellow;
+    text-decoration: underline white solid 3px;
+ }
+
+ .ul:hover{
+  color: yellow;
+  text-decoration: underline white solid 3px;
+}
+
+ .zoom a{
+    transition: 0.2s;
+ }
+
+ .zoom a:hover{
+    transform: scale(1.2);
+ }
+
+ .div-icon{
+    margin-right: 2%;
+ }
+
+
+/*Fine modifiche Navbar */
+
+/*Header Modifiche Con Video */
+
+.custom-container-head{
+  width: 100%;
+  z-index: 999;
+}
+
+h1{
+      color: white;
+      font-family: 'Bebas Neue', sans-serif;
+}
+
+header {
+   position: relative;
+   background-color: black;
+   height: 100vh;
+   width: 100%;
+   overflow: hidden;
+   margin: 2%;
+ }
+ 
+ header video {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: 0;
+   -ms-transform: translateX(-50%) translateY(-50%);
+   -moz-transform: translateX(-50%) translateY(-50%);
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+ }
+ 
+ header .container {
+   position: relative;
+   z-index: 2;
+ }
+ 
+ header .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   opacity: 0.5;
+   z-index: 1;
+ }
+ 
+ /* Media Query for devices withi coarse pointers and no hover functionality */
+ 
+ /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+ 
+ @media (pointer: coarse) and (hover: none) {
+   header {
+     background: url('../Selfwork7/Untitled\ video\ -\ Made\ with\ Clipchamp\ \(1\).mp4') black no-repeat center center scroll;
+   }
+ 
+   header video {
+     display: none;
+   }
+ }
+
+ /* Fine Header */
+
+ /* Inizio Section con Carousel */
+
+ .custom-distance{
+  margin-top: 5%;
+ }
+
+
+h2{
+  font-weight: bolder;
+  font-family: 'Nova Square', cursive;
+}
+
+.custom-font{
+  padding-top: 6%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size:large;
+  font-weight:normal;
+}
+
+/* Fine Section con Carousel */
+
+/* Inizio Section con Card */
+
+.custom-font2{
+  padding-top: 2%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size:large;
+  font-weight:normal;
+}
+
+.h2-custom{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bolder;
+}
+
+/* Fine Section con Card */
+
+/* Inizio Footer */
+
+
+
+.card-img-dim{
+  width: 25%;
+  height: 15%;
+}
+
+.custom-distance-card1{
+  margin-left:6%
+}
+
+h3{
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bolder;
+}
+
+footer h3:hover{
+  color: yellow;
+  text-decoration: underline white solid 3px;
+}
+
+footer ul{
+  list-style-type:none;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+footer a:hover{
+  color: yellow;
+  text-decoration: underline white solid 3px;
+}
+
+footer p{
+  text-decoration: none;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+footer p:hover{
+  color: yellow;
+}
