@@ -8,6 +8,12 @@
     margin-left: -15%;
  }
 
+ .cd-ani{
+    padding-right: 5%;
+    padding-left: 5%;
+
+ }
+
  .nav a{
     color: white;
     font-family: 'Bebas Neue', sans-serif;
@@ -18,9 +24,10 @@
     text-decoration: underline white solid 3px;
  }
 
- .ul:hover{
+ .ul a:hover{
   color: yellow;
   text-decoration: underline white solid 3px;
+  background-color: black;
 }
 
  .zoom a{
@@ -96,11 +103,11 @@ header {
  
  @media (pointer: coarse) and (hover: none) {
    header {
-     background: url('../Selfwork7/Untitled\ video\ -\ Made\ with\ Clipchamp\ \(1\).mp4') black no-repeat center center scroll;
+     background: url('../Selfwork7/Untitled video - Made with Clipchamp (1).mp4') repeat center center scroll;
    }
  
    header video {
-     display: none;
+     display:flex;
    }
  }
 
